@@ -1,4 +1,4 @@
-import FriendList from "./components/FriendList/FriendList";
+import FriendListItem from "./components/FriendListItem/FriendListItem";
 import Profile from "./components/Profile/Profile";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import "./App.css";
@@ -16,7 +16,7 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList friends={friends} />
+      <FriendListItem friends={friends} />
       <TransactionHistory items={transactions} />
     </>
   );

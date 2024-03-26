@@ -1,7 +1,7 @@
-import s from "./FriendList.module.css";
+import s from "./FriendListItem.module.css";
 import clsx from "clsx";
 
-function FriendList({ friends }) {
+function FriendListItem({ friends }) {
   return (
     <ul className={s.wrapper}>
       {friends.map((friend) => {
@@ -21,4 +21,4 @@ function FriendList({ friends }) {
   );
 }
 
-export default FriendList;
+export default FriendListItem;
