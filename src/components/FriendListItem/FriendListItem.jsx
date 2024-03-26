@@ -2,7 +2,6 @@ import s from "./FriendListItem.module.css";
 import clsx from "clsx";
 
 function FriendListItem({ friend }) {
-  console.log(friend);
   return (
     <div className={s.itemWrapper}>
       <img src={friend.avatar} alt={friend.name} width="48" />

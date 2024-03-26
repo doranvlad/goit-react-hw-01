@@ -1,5 +1,4 @@
 import s from "./FriendList.module.css";
-import clsx from "clsx";
 import FriendListItem from "../FriendListItem/FriendListItem";
 
 function FriendList({ friends }) {
