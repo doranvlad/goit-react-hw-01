@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  padding: 15px 10px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    margin-bottom: 10px;
+    width: 100px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+}
+
+.green {
+  color: rgb(94, 240, 94);
+}
+
+.red {
+  color: rgb(228, 73, 73);
+}

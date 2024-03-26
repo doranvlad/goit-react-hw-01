@@ -1,0 +1,28 @@
+.table {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  table-layout: fixed;
+  width: 600px;
+  border-collapse: collapse;
+  border: 2px solid black;
+
+  thead {
+    background-color: rgb(36, 36, 36);
+    color: white;
+  }
+
+  th,
+  td {
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: transparent;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: lightgrey;
+  }
+}
